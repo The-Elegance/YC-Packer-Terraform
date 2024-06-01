@@ -6,13 +6,13 @@ git clone https://github.com/The-Elegance/YC-Packer-Terraform
 
 ## Установка YC CLI
 ```
-bash yc-install.bash
+bash yc_install.bash
 ```
 
 ## Установка Packer
 
 ```
-bash packer-install.bash
+bash packer_install.bash
 ```
 
 ## Сборка образа ubuntu с terraform
