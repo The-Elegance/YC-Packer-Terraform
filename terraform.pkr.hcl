@@ -59,7 +59,8 @@ build {
       "sudo sed -i '$ a source /usr/local/completion.bash.inc' /etc/profile",
 
       # Terraform
-      "curl -sL https://hashicorp-releases.yandexcloud.net/terraform/${var.TF_VER}/terraform_${var.TF_VER}_linux_amd64.>      "unzip terraform.zip",
+      "curl -sL https://hashicorp-releases.yandexcloud.net/terraform/${var.TF_VER}/terraform_${var.TF_VER}_linux_amd64.zip",
+      "unzip terraform.zip",
       "sudo install -o root -g root -m 0755 terraform /usr/local/bin/terraform",
       "rm -rf terraform terraform.zip",
 
