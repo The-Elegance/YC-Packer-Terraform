@@ -13,6 +13,8 @@ bash yc_install.bash
 
 ```
 bash packer_install.bash
+exec -l $SHELL
+yc init
 ```
 
 ## Сборка образа ubuntu с terraform
